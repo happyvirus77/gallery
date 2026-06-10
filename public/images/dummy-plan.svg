@@ -1,0 +1,13 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="800" height="600" viewBox="0 0 800 600" role="img" aria-labelledby="title desc">
+  <title id="title">기획서 더미 썸네일</title>
+  <desc id="desc">기획서 섹션에 표시되는 더미 이미지입니다.</desc>
+  <rect width="800" height="600" fill="#f5f3ff"/>
+  <rect x="188" y="62" width="424" height="476" rx="22" fill="#ffffff" stroke="#7c3aed" stroke-width="6"/>
+  <path d="M516 62v112h96" fill="#ddd6fe"/>
+  <path d="M516 62v112h96" stroke="#7c3aed" stroke-width="6" stroke-linejoin="round"/>
+  <rect x="244" y="214" width="312" height="30" rx="8" fill="#8b5cf6"/>
+  <rect x="244" y="278" width="260" height="24" rx="8" fill="#c4b5fd"/>
+  <rect x="244" y="334" width="312" height="24" rx="8" fill="#c4b5fd"/>
+  <rect x="244" y="390" width="220" height="24" rx="8" fill="#c4b5fd"/>
+  <text x="400" y="148" fill="#4c1d95" font-family="Arial, sans-serif" font-size="48" font-weight="700" text-anchor="middle">기획서</text>
+</svg>

@@ -1,0 +1,15 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="800" height="600" viewBox="0 0 800 600" role="img" aria-labelledby="title desc">
+  <title id="title">사이트 더미 썸네일</title>
+  <desc id="desc">사이트 섹션에 표시되는 더미 이미지입니다.</desc>
+  <rect width="800" height="600" fill="#f0fdf4"/>
+  <rect x="64" y="76" width="672" height="448" rx="26" fill="#dcfce7" stroke="#16a34a" stroke-width="6"/>
+  <rect x="104" y="126" width="592" height="64" rx="14" fill="#14532d"/>
+  <circle cx="140" cy="158" r="10" fill="#86efac"/>
+  <circle cx="172" cy="158" r="10" fill="#86efac"/>
+  <circle cx="204" cy="158" r="10" fill="#86efac"/>
+  <rect x="112" y="230" width="240" height="216" rx="18" fill="#86efac"/>
+  <rect x="388" y="230" width="300" height="42" rx="10" fill="#22c55e"/>
+  <rect x="388" y="304" width="240" height="34" rx="10" fill="#4ade80"/>
+  <rect x="388" y="370" width="276" height="34" rx="10" fill="#4ade80"/>
+  <text x="400" y="116" fill="#14532d" font-family="Arial, sans-serif" font-size="48" font-weight="700" text-anchor="middle">사이트</text>
+</svg>

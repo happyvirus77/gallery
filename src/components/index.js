@@ -1,0 +1,8 @@
+export { default as FaqSection } from './FaqSection'
+export { default as Footer } from './Footer'
+export { default as GalleryTabs } from './GalleryTabs'
+export { default as Header } from './Header'
+export { default as Main } from './Main'
+export { default as ProductCard } from './ProductCard'
+export { default as ProductList } from './ProductList'
+export { default as ResourceLinks } from './ResourceLinks'
