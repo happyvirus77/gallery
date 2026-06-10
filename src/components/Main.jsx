@@ -1,9 +1,10 @@
-import heroImg from '../assets/hero.png'
+
 import { galleryLinks, portfolioLinks } from '../data/siteLinks'
 import FaqSection from './FaqSection'
 import GalleryTabs from './GalleryTabs'
 import ProductList from './ProductList'
 import ResourceLinks from './ResourceLinks'
+import { getPublicAssetUrl } from '../utils/assets'
 
 function formatClock(date) {
   return new Intl.DateTimeFormat('ko-KR', {
@@ -69,7 +70,7 @@ function Main({ now, dDayTarget }) {
       <section id="next-steps">
         <div id="docs">
           <svg className="icon" role="presentation" aria-hidden="true">
-            <use href="/icons.svg#documentation-icon"></use>
+            <use href={getPublicAssetUrl('/icons.svg#documentation-icon')}></use>
           </svg>
           <h2>갤러리 컬렉션</h2>
           <p>카테고리별 상품과 프로젝트를 보기 좋게 정리했습니다.</p>
@@ -77,7 +78,7 @@ function Main({ now, dDayTarget }) {
         </div>
         <div id="social">
           <svg className="icon" role="presentation" aria-hidden="true">
-            <use href="/icons.svg#social-icon"></use>
+            <use href={getPublicAssetUrl('/icons.svg#social-icon')}></use>
           </svg>
           <h2>포트폴리오 정보</h2>
           <p>작업 설명, 사용 기술, 연락 채널을 함께 제공합니다.</p>

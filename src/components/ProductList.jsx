@@ -1,5 +1,6 @@
 import { useCallback, useEffect, useState } from 'react'
 import productsDataUrl from '../data/products.json?url'
+import { getPublicAssetUrl } from '../utils/assets'
 import ProductCard from './ProductCard'
 
 const categories = [
@@ -102,6 +103,14 @@ function applySavedProductFlags(productList) {
   }))
 }
 
+function resolveProductAssetUrls(productList) {
+  return productList.map((product) => ({
+    ...product,
+    thumbnail: getPublicAssetUrl(product.thumbnail),
+    previewUrl: getPublicAssetUrl(product.previewUrl),
+  }))
+}
+
 function getSavedCartItems(productList) {
   const productLookup = createProductLookup(productList)
   const savedCartItems = readStorageValue(storageKeys.cart, [])
@@ -188,7 +197,9 @@ function ProductList() {
         throw new Error('상품 JSON 데이터는 배열이어야 합니다.')
       }
 
-      const nextProducts = applySavedProductFlags(loadedProducts)
+      const nextProducts = applySavedProductFlags(
+        resolveProductAssetUrls(loadedProducts),
+      )
 
       setProductItems(nextProducts)
       setCart(getSavedCartItems(nextProducts))
